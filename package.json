@@ -1,0 +1,30 @@
+{
+  "name": "custom-git-cli",
+  "version": "1.0.0",
+  "description": "A custom, low-level Git-style version control CLI tool built from scratch to simulate cryptographic content-addressable storage, file staging pipelines, and branching systems.",
+  "main": "git.js",
+  "type": "commonjs",
+  "bin": {
+    "mygit": "./git.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "keywords": [
+    "git",
+    "version-control",
+    "cli",
+    "hashing",
+    "systems-programming"
+  ],
+  "author": "Harekam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com"
+}
