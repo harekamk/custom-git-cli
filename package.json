@@ -1,30 +1,45 @@
+
 {
   "name": "custom-git-cli",
   "version": "1.0.0",
-  "description": "A custom, low-level Git-style version control CLI tool built from scratch to simulate cryptographic content-addressable storage, file staging pipelines, and branching systems.",
+  "description": "A custom Git-style version control CLI built from scratch with content-addressable storage, staging, commits, branching, and checkout.",
   "main": "git.js",
   "type": "commonjs",
   "bin": {
     "mygit": "./git.js"
   },
+  "files": [
+    "git.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node git.js",
+    "test": "node git.js help"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com"
+    "url": "https://github.com/harekamk/custom-git-cli.git"
   },
   "keywords": [
     "git",
     "version-control",
     "cli",
+    "custom-git",
+    "git-clone",
     "hashing",
-    "systems-programming"
+    "content-addressable-storage",
+    "systems-programming",
+    "nodejs"
   ],
   "author": "Harekam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com"
+    "url": "https://github.com/harekamk/custom-git-cli/issues"
   },
-  "homepage": "https://github.com"
+  "homepage": "https://github.com/harekamk/custom-git-cli",
+  "engines": {
+    "node": ">=18"
+  }
 }
+
