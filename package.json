@@ -3,19 +3,19 @@
   "name": "custom-git-cli",
   "version": "1.0.0",
   "description": "A custom Git-style version control CLI built from scratch with content-addressable storage, staging, commits, branching, and checkout.",
-  "main": "git.js",
+  "main": "mygit.js",
   "type": "commonjs",
   "bin": {
-    "mygit": "./git.js"
+    "mygit": "./mygit.js"
   },
   "files": [
-    "git.js",
+    "mygit.js",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "start": "node git.js",
-    "test": "node git.js help"
+    "start": "node mygit.js",
+    "test": "node mygit.js help"
   },
   "repository": {
     "type": "git",
